@@ -70,3 +70,7 @@ $superheroes = [
   <li><?= $superhero['alias']; ?></li>
 <?php endforeach; ?>
 </ul>
+
+<?php foreach ($_POST as $search): ?>
+  <p><?= $superhero['alias']; ?></p>
+<?php endforeach; ?>
